@@ -1,0 +1,39 @@
+html,
+body {
+	background-color: #333;
+	font-family: Trebuchet MS, Arial, Verdana, sans-serif;
+	font-size: 62.5%;
+	margin: 0;
+	padding: 0;
+}
+
+#holder {
+	text-align: center;
+	border: 1px solid #fff;
+}
+
+.placeholder {
+	color: #fff;
+	font-size: 2em;
+	position: absolute;
+	font-weight: bold;
+}
+
+#top {
+	top: 5px;
+}
+
+#bottom {
+	top: 120px;
+}
+
+.img-option {
+	border: 1px solid #eee;
+	padding: 3px;
+	cursor: pointer;
+}
+
+.img-option.selected {
+	opacity: .5;
+	cursor: default;
+}
